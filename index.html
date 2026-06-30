@@ -464,7 +464,7 @@ footer{background:var(--dark);border-top:0.5px solid var(--border);padding:44px 
       <p class="signup-sub">Fill out the form and our team will review your venue, then set up your venue page, drink menu, and chalkboard display. We review every submission to keep Queue It real &mdash; no fake venues, no phantom bars. No contract. No hardware. Just more people at your bar.</p>
       <div class="trust-item"><div class="trust-check">&#x2713;</div>Free to start &mdash; no credit card</div>
       <div class="trust-item"><div class="trust-check">&#x2713;</div>Hand-reviewed &mdash; typical approval in 1&ndash;3 days</div>
-      <div class="trust-item"><div class="trust-check">&#x2713;</div>Want to chat first? Email <a href="mailto:queueitsocial@gmail.com" style="color:var(--amber);text-decoration:none;">queueitsocial@gmail.com</a></div>
+      <div class="trust-item"><div class="trust-check">&#x2713;</div>Want to chat first? Email <a href="mailto:support@queueitsocial.app" style="color:var(--amber);text-decoration:none;">support@queueitsocial.app</a></div>
       <div class="trust-item"><div class="trust-check">&#x2713;</div>First month of Pro free</div>
     </div>
     <div class="reveal" style="transition-delay:.15s;">
@@ -481,9 +481,9 @@ footer{background:var(--dark);border-top:0.5px solid var(--border);padding:44px 
           <div class="form-group"><div class="form-label">Phone</div><input id="f-phone" class="form-input" type="tel" placeholder="(312) 555-0191"></div>
           <div id="form-error" style="display:none;font-size:12px;color:var(--coral);background:rgba(216,90,48,.08);border:0.5px solid rgba(216,90,48,.3);border-radius:11px;padding:10px 14px;margin-bottom:10px;"></div>
           <button id="form-submit-btn" class="form-submit" onclick="submitForm()">Get listed &rarr; &#x1F37A;</button>
-          <p class="form-fine">We'll never spam you. Want to talk before applying? Email <a href="mailto:queueitsocial@gmail.com" style="color:var(--amber);text-decoration:none;">queueitsocial@gmail.com</a>.</p>
+          <p class="form-fine">We'll never spam you. Want to talk before applying? Email <a href="mailto:support@queueitsocial.app" style="color:var(--amber);text-decoration:none;">support@queueitsocial.app</a>.</p>
         </div>
-        <div class="form-success" id="form-success"><div class="success-icon">&#x1F389;</div><div class="success-title">Application received!</div><p class="success-sub">Our team reviews every venue submission to keep Queue It real. You'll hear back within <strong>1&ndash;3 days</strong> once we've had a chance to look things over.<br><br>Questions in the meantime? Email <a href="mailto:queueitsocial@gmail.com" style="color:var(--amber);text-decoration:none;">queueitsocial@gmail.com</a>.</p></div>
+        <div class="form-success" id="form-success"><div class="success-icon">&#x1F389;</div><div class="success-title">Application received!</div><p class="success-sub">Our team reviews every venue submission to keep Queue It real. You'll hear back within <strong>1&ndash;3 days</strong> once we've had a chance to look things over.<br><br>Questions in the meantime? Email <a href="mailto:support@queueitsocial.app" style="color:var(--amber);text-decoration:none;">support@queueitsocial.app</a>.</p></div>
       </div>
     </div>
   </div>
@@ -491,7 +491,7 @@ footer{background:var(--dark);border-top:0.5px solid var(--border);padding:44px 
 
 <footer>
   <div class="foot-logo">Queue<span>It</span></div>
-  <ul class="foot-links"><li><a href="#signup">For venues</a></li><li><a href="https://queueit.app">For users</a></li><li><a href="queueit-privacy.html">Privacy</a></li><li><a href="queueit-terms.html">Terms</a></li><li><a href="mailto:queueitsocial@gmail.com">Contact</a></li></ul>
+  <ul class="foot-links"><li><a href="#signup">For venues</a></li><li><a href="https://queueit.app">For users</a></li><li><a href="queueit-privacy.html">Privacy</a></li><li><a href="queueit-terms.html">Terms</a></li><li><a href="mailto:support@queueitsocial.app">Contact</a></li></ul>
   <div class="foot-right">&copy; 2026 Queue It Social. Made in Chicago.</div>
 </footer>
 
@@ -546,7 +546,7 @@ async function submitForm(){
     document.getElementById('form-success').style.display='block';
   }catch(err){
     console.error('[venue-inquiry] submit failed',err);
-    errBox.textContent='Something went wrong. Please email queueitsocial@gmail.com or try again.';
+    errBox.textContent='Something went wrong. Please email support@queueitsocial.app or try again.';
     errBox.style.display='block';
     btn.disabled=false;
     btn.innerHTML=orig;
